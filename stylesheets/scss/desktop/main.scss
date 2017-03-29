@@ -1,0 +1,43 @@
+.background_wrapper_first {
+	width: 100%;
+	min-height: 450px;
+	background-image: url('../images/background_top.jpg');
+	background-position: 50%;
+}
+
+.background_wrapper_second {
+	width: 100%;
+	min-height: 275px;
+	margin-bottom: 95px;
+	background-image: url('../images/background_middle.jpg');
+	background-position: 50%;
+}
+
+.background_wrapper_third {
+	width: 100%;
+	min-height: 450px;
+	margin-bottom: 100px;
+	background-image: url('../images/background_bottom.jpg');
+	background-position: 50%;
+}
+
+.button {
+	padding: 10px 40px;
+	border: none;
+	border-radius: 25px;
+	background-color: #ee3840;
+	font-size: 14px;
+	outline: none;
+	color: #fff;
+}
+
+.button_big {
+	padding: 20px 40px;
+	border: none;
+	border-radius: 30px;
+	background-color: #ee3840;
+	font-size: 16px;
+	outline: none;
+	color: #fff;
+}
+

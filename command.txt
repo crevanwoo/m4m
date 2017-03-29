@@ -1,0 +1,3 @@
+cd /d D:\Projects\m4m\m4m
+
+gulp all:watch

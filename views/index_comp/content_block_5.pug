@@ -1,0 +1,12 @@
+div(class="container")
+    div(class="row")
+        div(class="reviews")
+            h2.h2 Отзывы о нас
+            h3.h3 Что о нас говорят клиенты
+            div.reviews_wrapper
+                -for (var i=0; i<2; i++)
+                    div(class="review col-lg-6 col-md-6")
+                        img(src="images/user.jpg" alt="Пользователь")
+                        div(class="review_text")
+                            h6.h6 Макс Черномырдин
+                            p= lorem_medium

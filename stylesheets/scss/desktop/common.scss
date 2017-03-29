@@ -1,0 +1,188 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	
+}
+
+body {
+	
+	background-color: #f3f3f1;
+	font-family: Regular;
+	font-size: $fs14;
+}
+
+* {
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+}
+
+.content {
+	
+}
+
+.wrapper {
+	/*width: 1220px;
+	margin: auto;*/
+}
+
+
+.button {
+	cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6/*,
+p,
+ul*/ {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: Medium;	
+}
+
+.h1 {
+	font-size: $fs24;
+}
+
+.h2 {
+	font-size:  $fs24;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.h3 {
+	position: absolute;
+	z-index: -1;
+	top: -18px;
+	left: 50%;
+	width: 100%;
+	transform: translatex(-50%);
+	font-size:  $fs35;
+	color: #e3e3e1;
+	text-align: center;
+}
+
+.h4 {
+	font-size:  $fs24;
+}
+
+.h5 {
+	font-size:  $fs30;
+}
+
+.h6 {
+	font-size:  $fs18;
+}
+
+
+
+
+
+/*a {
+	&:link,
+	&:visited,
+	&:active,
+	&:hover {
+		text-decoration: none;
+		color: $black
+	}
+}
+
+
+button {
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+	cursor: pointer;
+	&:focus {
+		outline: none;
+	}
+	&:active {
+		opacity: 0.5
+	}
+}
+
+
+.input {
+	position: relative;
+	display: inline-block;	
+	&:before {
+		content: '';
+		position: absolute;
+		left: 20px;
+		top: 50%;
+		width: 17px;
+		height: 20px;
+		transform: translateY(-50%);
+		background-size: 100% 100%;
+	}
+
+}
+
+input {
+	border: none;
+	background-color: white;
+	color: $black;
+	font-size: $fs16;
+	font-family: Regular;
+	&:focus {
+		outline: none;
+		background-color: rgba(255, 255, 255, 0.9);
+	}
+	&::-webkit-input-placeholder {
+		font-family: Regular;
+		font-size: $fs14;
+		color: $l_gray
+	}
+	&::-moz-placeholder {
+		font-family: Regular;
+		font-size: $fs14;
+		color: $l_gray
+	}
+
+	&:-moz-placeholder {
+		font-family: Regular;
+		font-size: $fs14;
+		color: $l_gray
+	}
+
+	&:-ms-input-placeholder {
+		font-family: Regular;
+		font-size: $fs14;
+		color: $l_gray
+	}
+}*/
+
+textarea {
+	resize: none;
+	font-size: $fs16;
+	&:focus {
+		outline: none;
+	}
+}
+
+
+.clearfix::after {
+	content:'';
+	display: block;
+	clear: both;
+}
+
+
+
+

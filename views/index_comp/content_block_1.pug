@@ -1,0 +1,47 @@
+div(class="container")
+    div(class="row")
+        div(class="second")
+            div(class="second_content col-lg-12 col-md-12 col-sm-12")
+		
+
+    div(class="row")
+        div(class="third")
+            h2.h2 Наши кейсы
+            h3.h3 Из чего мы состоим
+            div(class="row")
+                div(class="case case_left col-lg-11 col-md-12 col-sm-12 col-xs-12")
+                    div(class="picture picture1 col-lg-5 col-md-6 col-sm-6 col-xs-12")
+                    div(class="picture_description col-lg-6 col-md-6 col-sm-6 col-xs-12")
+                        h5.h5 Умный дом
+                        p= lorem_short
+                        button(class="button") Подробнее
+				
+
+            div(class="row")
+                div(class="case case_right col-lg-offset-1 col-lg-11 col-md-12 col-sm-12 col-xs-12")
+                    div(class="picture_description col-lg-offset-1 col-lg-6 col-md-6  col-sm-6 col-xs-12")
+                        h5.h5 Автомобиль
+                        p= lorem_short
+                        button(class="button") Подробнее
+						
+                        div(class="picture picture2 col-lg-5 col-md-6 col-sm-6 col-xs-12")
+				
+
+            div(class="row")
+                div(class="case case_left col-lg-11 col-md-12 col-sm-12 col-xs-12")
+                    div(class="picture picture3 col-lg-5 col-md-6 col-sm-6 col-xs-12")
+                    div(class="picture_description col-lg-6 col-md-6 col-sm-6 col-xs-12")
+                        h5.h5 Здоровье
+                        p= lorem_short
+                        button(class="button") Подробнее
+	
+
+    div(class="row")
+        div(class="results")
+            h2.h2 Результаты нашей работы
+            h3.h3 Какой-то текст который напишите вы
+            div(class="row")
+                -for (var i=0; i<4; i++)                
+                    div(class="result col-lg-3 col-md-3 col-sm-3")
+                        div(class="picture")
+                        p Lorem ipsum dolor sit amet,consectetur adipiscing elit.

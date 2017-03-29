@@ -1,0 +1,14 @@
+include ../index_help/variables    
+include ../index_help/mixins   
+
+
+doctype html
+html(lang='ru')
+  head
+    include ../index_meta/head 
+    link(rel="stylesheet" href="stylesheets/style.css")
+  body
+    div.global_wrapper
+        include ../index_comp/header
+        include ../index_comp/content
+        include ../index_comp/footer 
