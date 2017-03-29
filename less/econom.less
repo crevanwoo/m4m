@@ -1,0 +1,167 @@
+.econom {
+	position: relative;
+
+	@media (max-width: 768px) {
+		margin-bottom: 60px;
+	}
+
+	h2 {
+		margin-bottom: 135px;
+
+		@media (max-width: 992px) {
+			margin-bottom: 100px;
+		}
+
+		@media (max-width: 768px) {
+			margin-bottom: 40px;
+		}
+	}
+
+	.instructions {
+		position: relative;
+		margin-bottom: 120px;
+		text-align: center;
+
+		@media (max-width: 768px) {
+			max-width: 400px;
+			margin: 0 auto;
+		}
+
+		h6 {
+			line-height: 42px;
+		}
+
+		.number {
+			order: 1;
+			position: relative;
+			width: 60px;
+			height: 60px;
+			margin: 0 auto;
+			border: 1px solid #000;
+			text-align: center;
+			padding-top: 11px;
+			font-size: 24px;
+
+			@media (max-width: 1200px) {
+				width: 50px;
+				height: 50px;
+				padding-top: 7px;
+			}
+
+			@media (max-width: 768px) {
+				margin: 0 auto;
+				margin-top: 30px;
+			}
+
+			&::after {
+				content: '';
+				position: absolute;
+				top: 28px;
+				left: 58px;
+				width: 175px;
+				height: 1px;
+				background-color: #000;
+
+				@media (max-width: 1200px) {
+					top: 24px;
+					left: 49px;
+					width: 145px;
+				}
+
+				@media (max-width: 992px) {
+					width: 100px;
+				}
+
+				@media (max-width: 768px) {
+					display: none;
+				}
+			} 
+		}
+
+		.instruction_text {
+			order: 2;
+
+			@media (max-width: 768px) {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+			}
+		}
+
+		.instruction_top {
+			display: inline-block;
+			width: 230px;
+			padding-bottom: 100px;
+			vertical-align: top;
+
+			@media (max-width: 1200px) {
+				width: 190px;
+			}
+
+			@media (max-width: 992px) {
+				width: 145px;
+			}
+
+			@media (max-width: 767px) {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				width: 100%;
+				margin: 0 auto;
+				padding-bottom: 0;
+			}
+
+			&:last-child {
+
+				.number {
+
+					&::after {
+						display: none;
+					}
+				}
+			}
+
+			h6 {
+				margin-bottom: 20px;
+
+				@media (max-width: 768px) {
+					order: 1;
+					margin-bottom: 0;
+				}
+			}
+
+			span {
+				order: 2;
+			}
+		}
+
+		.instructions_bottom {
+			display: inline-block;
+			width: 230px;
+			padding-top: 110px;
+
+			@media (max-width: 1200px) {
+				width: 190px;
+				padding-top: 132px;
+			}
+
+			@media (max-width: 992px) {
+				width: 145px;
+				padding-top: 152px;
+			}
+
+			@media (max-width: 767px) {
+				width: 100%;
+				margin: 0 auto;
+				padding-top: 0;
+			}
+
+			h6 {
+
+				@media (max-width: 768px) {
+					margin-bottom: 0px;
+				}
+			}
+		}
+	}
+}

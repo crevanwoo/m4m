@@ -1,0 +1,124 @@
+.third {
+	position: relative;
+	margin-bottom: 85px;
+
+	@media (max-width: 768px) {
+		margin-bottom: 50px;
+	}
+
+	h2 {
+		margin-bottom: 95px;
+		text-align: center;
+	}
+
+	h3 {
+		position: absolute;
+		z-index: -1;
+		top: -18px;
+		left: 50%;
+		transform: translatex(-50%);
+	}
+
+	.case {
+		margin-bottom: 50px;
+	}
+
+	.case_left {
+		
+		.picture_description {
+			padding-left: 50px;
+
+			@media (max-width: 1200px) {
+				padding-left: 30px;
+			}
+		}
+	}
+
+	.case_right {
+		text-align: right;
+
+		@media (max-width: 768px) {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.button {
+			float: right;
+		}
+
+		.picture_description {
+			padding-right: 50px;
+
+			@media (max-width: 1200px) {
+				padding-right: 30px;
+			}
+
+			@media (max-width: 768px) {
+				padding-right: 0;
+
+				.button {
+					float: none;
+				}
+			}
+		}
+	}
+
+	.picture {
+		height: 315px;
+		background-size: 100%;
+
+		@media (max-width: 1200px) {
+			height: 350px;
+		}
+
+		@media (max-width: 992px) {
+			height: 270px;
+		}
+
+		@media (max-width: 767px) {
+			order: 1;
+			height: 70vw;
+		}
+	}
+
+	.picture1 {
+		background-image: url('../img/smart_house.jpg');
+	}
+
+	.picture2 {
+		background-image: url('../img/car.jpg');
+	}
+
+	.picture3 {
+		background-image: url('../img/health.jpg');
+	}
+
+	.picture_description {
+		margin-top: 80px;
+
+		@media (max-width: 992px) {
+			margin-top: 40px;
+		}
+
+		@media (max-width: 768px) {
+			order: 2;
+			text-align: center;
+		}
+
+		h5 {
+			margin-bottom: 35px;
+
+			@media (max-width: 992px) {
+				margin-bottom: 20px;
+			}
+		}
+
+		p {
+			margin-bottom: 40px;
+
+			@media (max-width: 992px) {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
