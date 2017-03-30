@@ -10,7 +10,7 @@ $('.case_right.animated').viewportChecker({
     classToAdd: 'fadeInRight'
 });
 
-$('.free.animated, .number.animated, form.animated').viewportChecker({
+$('.free.animated, .number.animated, .form.animated').viewportChecker({
     classToAdd: 'fadeIn',
 });
 
